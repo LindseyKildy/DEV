@@ -1,0 +1,68 @@
+header {
+    background-color: wheat;
+    height: 105vh;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;  
+}
+
+.logo {
+    margin: 20px 0 0 5%;
+    text-transform: uppercase; 
+    animation: animalogo 2s  0.5s ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes animalogo {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 10px;
+    }
+    100% {
+        opacity: 1; 
+    }
+}
+
+.nav {
+    margin: 20px 5% 0 0;
+}
+
+.nav a {
+    padding: 0 30px 0 0 ;
+    text-decoration: none;
+    color: black;
+
+}
+.nav a:hover {
+    text-decoration: underline;
+    color: brown;
+}
+
+.middle h1,p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.middle p {
+    margin: 0 30% 0 30%;
+}
+
+.middle h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.middle {
+    margin-top: 180px;
+}
+
+span {
+    color: brown;
+}
